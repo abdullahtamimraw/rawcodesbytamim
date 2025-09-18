@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+  int i,num,ans,ran;
+  printf("The number: ");
+  scanf("%d", &num);
+  printf("Range: ");
+  scanf("%d", &ran);
+  for(i=1; i<=ran; i++){
+      ans= num*i;
+      printf("%d x %d = %d\n", num, i, ans);
+  }
+    return 0;
+}
