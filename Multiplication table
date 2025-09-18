@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+  int i,num,ans;
+  printf("The number: ");
+  scanf("%d", &num);
+  for(i=1; i<11; i++){
+      ans= num*i;
+      printf("%d x %d = %d\n", num, i, ans);
+  }
+    return 0;
+}
