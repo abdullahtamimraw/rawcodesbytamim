@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    char word[50];
+    int i=1, lim;
+    printf("Enter the Word: ");
+    scanf("%s", &word);
+    
+    printf("Enter line number: ");
+    scanf("%d", &lim);
+    
+  for(i; i<=lim; i++){
+      printf("%s\n", &word);
+      
+  }
+  
+    return 0;
+}
